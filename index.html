@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="¡Hola! Soy Milagros Mailen Irusta, analista de datos en constante formación y contadora pública. Cuento con experiencia impositiva y laboral. 
+    Proactiva y organizada, con buena predisposición a la realización de nuevas tareas y al aprendizaje.Con interés en aprender sobre data Analytics y Data Science.">
+    <meta name="keywords" content="Data Analytics">
+    <meta name="author" content="">
+    <!--aca despues hay que poner nuestros nombres-->
+
+    <!--Open Graph-->
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Milagros Mailen Irusta">
+    <meta property="og:description"
+        content="¡Hola! Soy Milagros Mailen Irusta, analista de datos en constante formación y contadora pública. Cuento con experiencia impositiva y laboral. 
+    Proactiva y organizada, con buena predisposición a la realización de nuevas tareas y al aprendizaje.Con interés en aprender sobre data Analytics y Data Science">
+
+    <meta property="og:url" content="">
+    <!--aca despues hay que poner el url-->
+    <meta property="og:image" content="img/logo-milagros-irusta.svg">
+    <!--cuando tengamos la imagen hay que ponerla-->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+    <!-- Fin Open Graph-->
+
+    <!--Material icos-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--CSS Boostrap v5.0-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--CSS local-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Tipografias-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Titulo-->
+    <title>Milagros Irusta | Analista de datos </title>
+</head>
+
+<body>
+
+    <header>
+        <!--menu de navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <!--logo-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logo-navbar" src="img/logo-milagros-irusta.svg" alt="Logo personal de Milagros Irusta, Analista de datos">
+                </a>
+
+                <!--boton para el menu desplegable-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--menu-->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                        <a class="nav-link" href="#sobreMi">Sobre mí</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <!--incio-->
+        <section id="inicio">
+
+            <h1 class="text-center pt-5 titulo"> Milagros Irusta</h1>
+            <div>
+                <h2 class="text-center pt-3 subtitulo">ANALISTA DE DATOS</h2>
+                <h6 class="text-center pt-2 parrafo">
+                    ¡Bienvenidos a mi sitio Web!
+                </h6>
+                <p class="text-center parrafo">
+                    Soy analista en datos en constante aprendizaje
+                </p>
+            </div>
+            <!--links porfolio y contacto-->
+            <div class="text-center pt-4">
+                <a href="#portafolio" class="enlace-boton">Ver portafolio</a>
+                <a href="#contacto" class="enlace-boton2">Contacto</a>
+            </div>
+            <div class="text-center pt-5">
+                <a href="#servicios">
+                    <i class="material-icons expand_more">expand_more</i>
+                </a>
+            </div>
+        </section>
+
+        <!--servicios-->
+        <section id="servicios">
+            <h4 class="text-center pt-5 frase">
+                “Ayudar a tomar las decisiones correctas, traduciendo datos en información valiosa y comprensible.”
+            </h4>
+
+            <h2 class="text-center pt-5 pb-1 mt-5 servicios">Servicios</h2>
+            <p class="text-center pb-5">¿Como puedo ayudarte a mejorar el uso de tu data y usarlo de la mejor forma?</p>
+
+            <div class="d-flex flex-wrap p-5" id="column">
+
+                <!-- Info sobre Relevamiento de datos-->
+                <div class="text-center p-3 col-sm-4">
+                    <i class="material-icons icons-servicios">search</i>
+                    <h3 class="titulo-servicios"> Relevamiento de datos</h3>
+                    <p>Investigacón, recolección, limpieza y remodelación de datos relevantes.</p>
+
+                    <!--pop up-->
+                    <div>
+                        <p>Recolectar</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#recolectarModal">
+                            <i class="material-icons add-icon">add</i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="recolectarModal" tabindex="-1" aria-labelledby="recolectarModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div>
+                                            <i class="material-icons icons-servicios">search</i>
+                                            <h5 class="modal-title" id="recolectarModalLabel">Relevamiento de datos</h5>
+                                            <p>Un proyecto de datos siempre comienza con un paso de
+                                                ingeniería de datos. Necesita recolectar datos y
+                                                almacenarlos en un formato adecuado para poder usarlos.</p>
+                                            <h4>¿En qué puedo ayudarte?</h4>
+                                        </div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>Recolectar datos de diferentes fuentes como bases de
+                                                datos SQL u hojas de cálculo de Excel desordenadas.</li>
+                                            <li>Gestionar información con SQL</li>
+                                            <li>Cambiar el formato y la forma de los datos para facilitar los análisis posteriores</li>
+                                            <li>Limpiar conjuntos de datos eliminando valores atípicos y datos aberrantes</li>
+                                            <li>Realizar la estimación de tiempos de las etapas de un proyecto de explotación de datos. </li>
+                                            <li>Automatizar la creación de informes relacionados con Automatizar la creación de informes relacionados con
+                                                datos datos</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!--Info sobre Procesamiento de datos-->
+                <div class="text-center p-3 col-sm-4">
+                    <i class="material-icons icons-servicios">build</i>
+                    <h3 class="titulo-servicios">Procesamiento de datos</h3>
+                    <p>Exploración de datos, aplicación de métodos estadísticos, análisis de datos reproducibles.</p>
+
+                    <!--pop up-->
+                    <div>
+                        <p>Analizar</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#analizarModal">
+                            <i class="material-icons add-icon">add</i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="analizarModal" tabindex="-1" aria-labelledby="analizarModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div>
+                                            <i class="material-icons icons-servicios">build</i>
+                                            <h5 class="modal-title" id="analizarModalLabel">Procesamiento de datos</h5>
+                                            <p>Analizo los datos para obtener respuesta a su pregunta.
+                                                Dar una idea de la información.</p>
+                                            <h4>¿En qué puedo ayudarte?</h4>
+                                        </div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>Análisis exploratorio de un conjunto de datos. </li>
+                                            <li>Identificar el ciclo de vida de los datos</li>
+                                            <li> Aplicación de métodos estadísticos en su conjunto de
+                                                datos</li>
+                                            <li>Crear DAX óptimas. </li>
+                                            <li>Desarrollar técnicas de manipulación y transformación
+                                                de datos utilizando Power Query.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Info sobre Vizualizacion de dato-->
+                <div class="text-center p-3 col-sm-4">
+                    <i class="material-icons icons-servicios">insights</i>
+                    <h3 class="titulo-servicios">Visualización de datos</h3>
+                    <p>Creación de dashboards y cuadros de mando estáticos e interactivos</p>
+
+                    <!--pop up-->
+                    <div>
+                        <p>Comunicar</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#comunicarModal">
+                            <i class="material-icons add-icon">add</i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="comunicarModal" tabindex="-1" aria-labelledby="comunicarModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div>
+                                            <i class="material-icons icons-servicios">insights</i>
+                                            <h5 class="modal-title" id="comunicarModalLabel">Visualización de datos</h5>
+                                            <p>Diseño modelos interactivos para brindar una mayor
+                                                compresión de los datos y su análisis posterior.</p>
+                                            <h4>¿En qué puedo ayudarte?</h4>
+                                        </div>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul>
+                                            <li>Creación de tableros de control interactivos en Power BI.</li>
+                                            <li>Creación de cuadros de mando para análisis de datos en
+                                                tiempo real. </li>
+                                            <li> Visualización de datos geoespaciales</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <h2 class="text-center p-3 sobre-mi-titulo">Sobre mí</h2>
+        </section>
+
+        <!--sobre mi-->
+
+        <section id="sobreMi">
+
+            <div class="d-flex flex-wrap justify-content-center align-items-center sobre-mi">
+                <div>
+                    <img class="p-5"
+                    src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdipierro-fotografo.com%2Fwp-content%2Fuploads%2Felementor%2Fthumbs%2Ffotografia-linkedin-profesional-2-o7bi1hd06mfepk2fglh01jtld1i59d6091y6j3ouuk.jpg&f=1&nofb=1"
+                    alt="Retrato de Milagros Irusta, analista de datos">
+                </div>
+
+                <p class="text-light p-5 parrafo-sobremi">
+                    ¡Hola! Soy Milagros Mailen Irusta, analista de datos en constante formación y contadora pública.
+                    Cuento con experiencia impositiva y laboral.
+                    Proactiva y organizada, con buena predisposición a la realización de nuevas tareas y al aprendizaje.
+                    Con interés en aprender sobre data Analytics y Data Science.
+                </p>
+            </div>
+        </section>
+
+        <!--Porfolio-->
+        <section id="portafolio">
+            <h2 class="portafolio-titulo p-5 text-center">Portafolio</h2>
+            <p class="text-center">Resumen de mis proyectos personales</p>
+
+            <!--trabajo del portafolio-->
+            <div class="p-5 text-center trabajo-portafolio d-flex justify-content-center align-items-center">
+                <figure>
+                    <img src="img/img-portafolio.jpg" alt="Trabajo realizado">
+                    <!--hoover sobre el trabajo-->
+                    <div class="portafolio-hover justify-content-center align-items-center p-5 ">
+                        <h2 class="text-light">Educación</h2>
+                        <p class="text-light">
+                            Visualización interactiva "Análisis de la cantidad de estudiantes
+                            en Institutos de Fuerza Aérea"
+                        </p>
+                        <a href="porfolio.html" class="ver-boton"> VER</a>
+                        <!--pop up-->
+                    </div>
+                </figure>
+            </div>
+            <div class="div-vacio p-5"> </div>
+        </section>
+
+        <!--Contacto-->
+        <section id="contacto" class="p-5 text-center">
+            <h2 class="contacto-titulo p-5">Contacto</h2>
+            <p class="pb-5">¿Te gustaría tomar mejores decisiones usando data? Tu consulta no molesta</p>
+            <div class="d-flex justify-content-center flex-wrap">
+                <a class="enlace-boton3" href="mailto:mili.irusta@gmail.com">MAIL</a>
+                <a class="enlace-boton" target="_blank"
+                    href="https://www.linkedin.com/in/milagros-malen-irusta/">LINKEDIN</a>
+                <a href="tel:3585069648" class="enlace-boton">TELEFONO</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <!--navegacion del footer-->
+        <ul class="d-flex  justify-content-around">
+            <li class="pt-5">
+                <a href="index.html">
+                    <img class="logo" src="img/logo-milagros-irusta.svg" alt="Logo, link de la pagina principal">
+                </a>
+            </li>
+            <!--menu del footer-->
+            <li>
+                <ul class="pt-5 footer-menu">
+                    <li>
+                        <a class="nav-link text-dark" href="#servicios">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" href="#sobreMi">Sobre mí</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" href="#contacto">Contacto</a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li class="p-5">
+                <a href="https://www.linkedin.com/in/milagros-malen-irusta/" target="_blank">
+                    <img class="icon-linkdin" src="img/linkedin.svg" alt="Link a Linkedin">
+                </a>
+            </li>
+        </ul>
+
+        <div class="pt-5 d-flex flex-wrap justify-content-around">
+            <p class="p-5">© 2020 CRM. All rights reserved.</p>
+            <div class="d-flex">
+                <p class="p-5">
+                    Terms of services
+                </p>
+                <p class="p-5">
+                    Privacy policy
+                </p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
