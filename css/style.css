@@ -57,9 +57,13 @@ img{
 }
 .navbar{
     padding: 1rem;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 9999;
 }
 .navbar-brand{
-    width: 2em;
+    width: 1em;
     padding-top: 0;
 }
 
@@ -70,13 +74,42 @@ img{
     padding: 1em;
 }
 
+
+
 /*INICIO-----------------------------------------------*/
+/*PARICULAS FONDO----------------------*/
+#incio-seccion{
+    position: relative;
+}
+#particles-js{
+    position: absolute;
+    z-index:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+
+/*TEXTO INICIO------------------------*/
 #inicio{
-    height: 95vh;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #inicio .titulo{
     font-size: 3.5em;
     font-weight: 700;
+    margin: 0;
+}
+
+#inicio .pt-5{
+    padding:  0;
 }
 #inicio .subtitulo{
     font-size: 1.5em;
@@ -290,7 +323,7 @@ footer .logo{
         /*INICIO*/
         #inicio .titulo{
             font-size: 5em;
-            margin-top: 1em;}
+        }
     
         .expand_more{
             font-size: 10em;
@@ -308,7 +341,7 @@ footer .logo{
 }
 
 .navbar{
-    padding: 2em;
+    padding: 1em;
 }
 
 .expand_more {
