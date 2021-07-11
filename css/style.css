@@ -185,6 +185,7 @@ img{
 }
 .modal-content{
 padding: 1em;
+top: 4em;
 }
 .modal-body ul{
     margin: 0.5em 0;
