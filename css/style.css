@@ -59,11 +59,12 @@ img{
     padding: 1rem;
     position: fixed;
     width: 100%;
+    top: 0;
     background-color: #ffffff;
     z-index: 9999;
 }
 .navbar-brand{
-    width: 1em;
+    width: 2em;
     padding-top: 0;
 }
 
@@ -282,9 +283,14 @@ ul li{
     margin: 1em;
 }
 
-.educacion>div{
+.educacion{
     width: 80%;
-    margin: 0 auto;
+    height: 80vh;
+    margin: 3em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /*FOOTER---------------------------------------------*/
