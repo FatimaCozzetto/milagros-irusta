@@ -314,6 +314,10 @@ footer .logo{
         margin-left: 2em;
     }
 
+    .sobre-mi>div{
+        width: 40%;
+    }
+
    .icon-linkdin{
     width: 20px;
    }
