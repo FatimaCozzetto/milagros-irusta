@@ -343,7 +343,7 @@ footer .logo{
     flex-wrap:wrap; 
     justify-content: space-around;
 }
-   .contenedor-video>div{
+   .contenedor-video{
     width: 80%;
    }
 }
@@ -378,7 +378,7 @@ footer .logo{
     font-size: 10em;
 }
 
-.contenedor-video>div{
+.contenedor-video{
     width: 55%;
    }
 
