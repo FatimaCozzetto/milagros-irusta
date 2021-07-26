@@ -284,15 +284,31 @@ ul li{
 }
 
 .educacion{
-    width: 80%;
-    height: 80vh;
     margin: 3em auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.educacion>div{
+    background-color: #f3f4f7;
+    text-align: center;
+    padding: 1em 0;
+}
 
+.educacion video{
+    max-width: 100%;
+}
+
+.contenedor-video{
+    width: 90%;
+    margin: 2em auto;
+}
+
+.educacion p{
+    text-align: center;
+    margin: 0 auto 1em auto;
+}
 /*FOOTER---------------------------------------------*/
 .icon-linkdin{
     width: 35px;
@@ -327,6 +343,9 @@ footer .logo{
     flex-wrap:wrap; 
     justify-content: space-around;
 }
+   .contenedor-video>div{
+    width: 80%;
+   }
 }
 /*desktop*/
 @media(min-width: 992px){
@@ -359,6 +378,9 @@ footer .logo{
     font-size: 10em;
 }
 
+.contenedor-video>div{
+    width: 55%;
+   }
 
 }
 
