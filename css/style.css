@@ -308,6 +308,7 @@ ul li{
 .educacion p{
     text-align: center;
     margin: 0 auto 1em auto;
+    padding: 0 1em;
 }
 /*FOOTER---------------------------------------------*/
 .icon-linkdin{
@@ -320,6 +321,13 @@ ul li{
 footer .logo{
     padding-top: 1rem;
     width: 35px;
+   }
+
+   .firma{
+       text-align: center;
+       font-size: 12px;
+       color: #000;
+       margin: 0 auto 1em auto;
    }
 
 /*tablet----------------------------------------------------------*/
